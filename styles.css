@@ -1,0 +1,52 @@
+.header{
+  text-align: center;
+  text-shadow:3px 3px #373739;
+  font-family:"Arial Black", Gadget, sans-serif;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://media.timeout.com/images/102598395/630/472/image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-primary {
+  background-color: #393937;
+}
+
+.cent {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fill {
+  height: 180px;
+  width: -30px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.jumbotron {
+    background-color:transparent !important; 
+}
+#customization{
+  background-color:#393937;
+}
+.2{
+  border: dashed;
+  border-color: blue;
+}
+}
