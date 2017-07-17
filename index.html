@@ -2,6 +2,17 @@
 <html>
  
 <head>
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
     <link href="lib/css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
@@ -12,7 +23,17 @@
     <div>
     <div class="bg">
         <div class="container-fluid">
-<center>
+           
+           <span class= "glyphicon glyphicon-th-large" onclick="openNav()"></span> 
+            <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+            </div>
+            
+            <center>
             <div class="jumbotron">
                 <h1 class="header hvr-float-shadow" style="color:white; text-align;">Hudson Valley Folk Festival</h1>
             </div>
@@ -28,14 +49,14 @@
                     <div class="col-xs-4"></div>
                     <center>
                         <div class="col-xs-1">
-                            <a class="btn btn-primary btn-lg hvr-ripple-in">Lineup</a>
+                            <a class="btn btn-primary btn-lg hvr-ripple-out">Lineup</a>
 
                         </div>
                     </center>
                     <div class="col-xs-2"></div>
                     <center>
                         <div class="col-xs-1">
-                            <a class="btn btn-primary btn-lg hvr-ripple-in">Tickets</a>
+                            <a class="btn btn-primary btn-lg hvr-ripple-out">Tickets</a>
                         </div>
                     </center>
                 </div>
@@ -43,7 +64,7 @@
                     <div class="col-xs-5"></div>
                     <div class="col-xs-2">
                         <center>
-                            <a align="center" class="btn btn-primary btn-lg hvr-ripple-in">About</a>
+                            <a align="center" class="btn btn-primary btn-lg hvr-ripple-out">About</a>
                         </center>
                     </div>
                     <div class="col-xs-5"></div>
@@ -68,9 +89,6 @@
     </div>
 
     
-   
-   
-
 
 
 <center>
@@ -184,11 +202,126 @@
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-xs-12"></div>
+    
+    
+    
+<!--        Event Page          -->
+    <div class="tickets">
+        <div class="row tix">
+            <div class="col-xs-6 spacing">
+                <h3>Event 1</h3>
+            </div>
+            <div class="col-xs-3">
+                <div class= "row" style="text-align:center;">
+                    <div class="col-xs-12">
+                        <p>
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        About
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "col-xs-12">
+                        <p style="text-align:center;">The world is comprised of many micro species that are each important to the standing of the system as a whole.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="col-xs-12" style="text-align:center;">
+                        <p><span class="glyphicon glyphicon-calendar"></span>
+                        July 12 
+                        </p>
+                    </div>
+                    <div class="col-xs-12" style="text-align:center;">
+                        <p><span class="glyphicon glyphicon-usd"></span>
+                        12
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
+    <div class="tickets">
+        <div class="row tix">
+            <div class="col-xs-6 spacing">
+                <h3>Event 2</h3>
+            </div>
+            <div class="col-xs-3">
+                <div class= "row" style="text-align:center;">
+                    <div class="col-xs-12">
+                        <p>
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        About
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "col-xs-12">
+                        <p style="text-align:center;">The world is comprised of many micro species that are each important to the standing of the system as a whole.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="col-xs-12" style="text-align:center;">
+                        <p><span class="glyphicon glyphicon-calendar"></span>
+                        July 13 
+                        </p>
+                    </div>
+                    <div class="col-xs-12" style="text-align:center;">
+                        <p><span class="glyphicon glyphicon-usd"></span>
+                        13
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="tickets">
+        <div class="row tix">
+            <div class="col-xs-6 spacing">
+                <h3>Event 3</h3>
+            </div>
+            <div class="col-xs-3">
+                <div class= "row" style="text-align:center;">
+                    <div class="col-xs-12">
+                        <p>
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        About
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "col-xs-12">
+                        <p style="text-align:center;">The world is comprised of many micro species that are each important to the standing of the system as a whole.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="col-xs-12" style="text-align:center;">
+                        <p><span class="glyphicon glyphicon-calendar"></span>
+                        July 14 
+                        </p>
+                    </div>
+                    <div class="col-xs-12" style="text-align:center;">
+                        <p><span class="glyphicon glyphicon-usd"></span>
+                        14
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- About -->
+    
+    
+    <!--        FORMSPREE         -->
     <div class = "container-fluid">
     <div style="background-color:grey;" class="col-xs-12">
     <div class="Jumbotron">
