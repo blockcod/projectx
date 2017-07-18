@@ -104,7 +104,6 @@
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
-    padding: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -112,7 +111,22 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-.glyphicon{
+#w{
   color: white;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+.gradient{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+  transition: margin-left .5s;
+
+}
+#loc{
+  background-color:#393937;
+}
+#information{
+  color: white;
 }
