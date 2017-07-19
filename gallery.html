@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <link href="lib/css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="myscripts.js"></script>
+
+</head>
+
+<body id="main">
+
+    <div id="gradient" class="container-fluid">
+
+        <span class="glyphicon glyphicon-menu-hamburger" id="w" onclick="openNav()"></span>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="location.html">Location</a>
+            <a href="lineup.html">Lineup</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="container">
+                    <center>
+                        <h1>Performers</h1>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+
+                            <div class="carousel-inner" style="height:auto;">
+
+                                <div class="item active">
+                                    <img style="height:auto;" src="https://media.timeout.com/images/100468113/image.jpg">
+                                    <div class="carousel-caption">
+                                        <h1>Festival</h1>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img style="height:400px;" src="http://www.gibson.com/Images/Products/ElectricGuitars/Les-Paul/Custom/Les-Paul-Custom-Pro/HB357C-Finish-Shot-jpg.aspx?KeepThis=true&TB_iframe=true&height=410&width=1000">
+                                    <div class="carousel-caption">
+                                        <h1>Gibson les paul</h1>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img style="height:400px;" src="http://www.travelswithmybabies.com/wp-content/uploads/2015/04/DSC_0041-10-1024x686.jpg">
+                                    <div class="carousel-caption">
+                                        <h1>Cherry Blossom</h1>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img style="height:400px;" src="http://www.visitwales.com/~/media/11b81e16982c444b9490b7cb4a47c3c1.ashx?h=361&la=en&w=642">
+                                    <div class="carousel-caption">
+                                        <h1>Food</h1>
+                                    </div>
+                                </div>
+
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+</body>
+ 
