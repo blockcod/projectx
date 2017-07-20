@@ -45,8 +45,7 @@
 }
 
 .tix {
-  height: 100px;
-  border: 2px groove #393937;
+  
 }
 
 .spacing {
@@ -93,7 +92,7 @@
 
 .sidenav a:hover,
 .offcanvas a:focus {
-  color: #f1f1f1;
+  color: skyblue;
 }
 
 
@@ -128,7 +127,8 @@
 
 #w {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
+  hvr-fo
 }
 
 .gradient {
@@ -145,12 +145,14 @@
 
 #information {
   font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 
 
 #demo {
   color: white;
   font-size: 60px;
+  text-shadow:1px 1px black;
 }
 
 
@@ -160,4 +162,45 @@
     vertical-align:middle;
 height:104px;
 width:104px;
+}
+
+.Bottom_Info{
+  color: white;
+}
+
+.modal-title{
+ color: black; 
+}
+
+.modal-body{
+  color:black; 
+}
+
+.tickets{
+
+  height:400px;
+    background: url("gticket.png") no-repeat center;
+
+
+  color:white;
+  text-shadow:1px 1px black;
+} 
+.hvr-custom{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  
+}
+.hvr-custom:hover, .hvr-custom:focus, .hvr-custom:active{
+    -webkit-transform: translateY(8px) translate(8px)  scale(1.1);
+  transform: translateY(8px) translateX(8px) scale(1.1);
+  
 }
