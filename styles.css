@@ -7,7 +7,7 @@
 .bg {
   width: 100%;
   height: 100%;
-  background-image: url("https://media.timeout.com/images/102598395/630/472/image.jpg");
+  background-image: url("7.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,8 +24,6 @@
 .btn-primary {
   background-color: #393937;
 }
-
-
 
 .fill {
   height: 180px;
@@ -45,13 +43,13 @@
 }
 
 .tix {
-  
+  padding-top: 10%;
 }
 
 .spacing {
-  height: 100px;
+  padding-left: 20%;
   display: flex;
-  align-items: center;
+  text-align: right;
 }
 
 .sidenav {
@@ -148,44 +146,40 @@
   color: white;
 }
 
-
 #demo {
   color: white;
   font-size: 60px;
-  text-shadow:1px 1px black;
+  text-shadow: 1px 1px black;
 }
-
 
 #close-CSS {
   background-image: url("https://lh3.google.com/u/0/d/0B90Ifl6SFbQNZFRtYWNma2RzS1E=w1366-h662-iv2");
-    border-radius: 50%;
-    vertical-align:middle;
-height:104px;
-width:104px;
+  border-radius: 50%;
+  vertical-align: middle;
+  height: 104px;
+  width: 104px;
 }
 
-.Bottom_Info{
+.Bottom_Info {
   color: white;
 }
 
-.modal-title{
- color: black; 
+.modal-title {
+  color: black;
 }
 
-.modal-body{
-  color:black; 
+.modal-body {
+  color: black;
 }
 
-.tickets{
+.tickets {
+  height: 400px;
+  background: url("gticket.png") no-repeat center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
 
-  height:400px;
-    background: url("gticket.png") no-repeat center;
-
-
-  color:white;
-  text-shadow:1px 1px black;
-} 
-.hvr-custom{
+.hvr-custom {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -197,10 +191,11 @@ width:104px;
   transition-property: transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-  
 }
-.hvr-custom:hover, .hvr-custom:focus, .hvr-custom:active{
-    -webkit-transform: translateY(8px) translate(8px)  scale(1.1);
+
+.hvr-custom:hover,
+.hvr-custom:focus,
+.hvr-custom:active {
+  -webkit-transform: translateY(8px) translate(8px) scale(1.1);
   transform: translateY(8px) translateX(8px) scale(1.1);
-  
 }
